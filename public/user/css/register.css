@@ -1,0 +1,30 @@
+.container {
+    height: 530px;
+}
+.container .page-header {
+
+    margin: 20px 0 10px 60%;
+}
+.container .page-errno {
+    color: red;
+    margin: 0 0 0 60%;
+}
+.container_img {
+    padding: 15px 15px 0 15px;
+    box-shadow: 0 0 5px #ccc;
+}
+.img-reponsive {
+    float: left;
+    width: 550px;
+    height: 500px;
+}
+.form-group {
+    padding: 15px;
+}
+.form-group-row {
+    padding-bottom: 20px;
+}
+.form-group-row .col-md-12 {
+    width: 170px;
+}
+

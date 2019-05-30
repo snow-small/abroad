@@ -1,0 +1,25 @@
+.order__show {
+    margin: 20px 50px;
+}
+.order__show__line {
+    width: 100%;
+    height: 2px;
+    background: #2aabd2;
+    margin: 20px 0;
+}
+.order__show__item {
+    list-style: none;
+    padding: 0;
+}
+.order__show__item li {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.order__show a, .order__show__item li a {
+    color: #37363e;
+}
+.order__show a:hover, .order__show__item li a:hover {
+    color: #c7254e;
+    text-decoration: none;
+}

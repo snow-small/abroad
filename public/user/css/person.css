@@ -1,0 +1,16 @@
+.person {
+    width: 1000px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px 200px;
+}
+.person__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 80px;
+}

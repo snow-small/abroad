@@ -1,0 +1,199 @@
+.school__wrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+body .school {
+    position: relative;
+    padding: 0;
+    background: url("../images/schoolbg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.school__left {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    padding: 30px 90px 30px 30px;
+    color: #fff;
+    width: 50%;
+    height: 100%;
+}
+.school__list {
+    padding: 0;
+    list-style: none;
+    height: 85%;
+    overflow: auto;
+}
+.school__list::-webkit-scrollbar
+{
+    width: 8px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+.school__list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #2aabd2;
+}
+.school__list li {
+    display: inline-block;
+    width: 125px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 0 15px 14px 0;
+}
+.school__list li:hover {
+    cursor: pointer;
+}
+.school .school__list__active {
+    border: 1px solid #2aabd2;
+    border-radius: 3px;
+    background: #2aabd2;
+}
+.school h2 {
+    font-size: 25px;
+}
+.school h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.school__line {
+    width: 100%;
+    height: 2px;
+    margin: 15px 0;
+    background: #2aabd2;
+}
+.school__right {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 0;
+    padding: 30px 90px 30px 30px;
+    color: #fff;
+    width: 50%;
+}
+.school__schools {
+    padding: 0;
+    list-style: none;
+}
+.school__schools li {
+    display: inline-block;
+    width: 480px;
+    height: 40px;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+.school__schools li a {
+    text-decoration: none;
+    color: #fff;
+}
+.school__schools li a:hover {
+    color: #2aabd2;
+}
+.school__schools li i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #2aabd2;
+}
+.school__schools li span {
+    float: right;
+    color: #2aabd2;
+    padding-right: 15px;
+}
+
+
+
+.school__show {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+}
+.school__show__icon {
+    margin-top: 40px;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    transition: 1s;
+}
+.school__show__name {
+    letter-spacing: 4px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.school__show__item {
+    list-style: none;
+}
+.school__show__item li {
+    display: inline-block;
+    margin-right: 40px;
+    letter-spacing: 1px;
+}
+.school__show__bottom {
+    color: #37363e;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/*.school__show__introduce {*/
+    /*padding: 20px 0;*/
+    /*font-size: 35px;*/
+    /*letter-spacing: 4px;*/
+/*}*/
+/*.table {*/
+    /*text-align: left;*/
+/*}*/
+/*.school__show__bottom .table th, .school__show__bottom .table td {*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+/*}*/
+.school__apply {
+    float: left;
+    width: 340px;
+    background: #fff;
+    padding: 10px 40px;
+    margin: 10px 20px 50px;
+}
+.school__apply__program {
+    font-size: 25px;
+    padding: 10px 0;
+    border-bottom: 2px solid #2aabd2;
+}
+.school__apply__detail {
+    list-style: none;
+    text-align:  left;
+}
+.school__apply__detail li {
+    font-size: 15px;
+    padding: 2px 0;
+}
+.school__apply a {
+    display: inline-block;
+    color: #37363e;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.school__apply a:hover {
+    background: #2aabd2;
+    border: 1px solid #2aabd2;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+

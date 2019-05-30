@@ -1,0 +1,239 @@
+.question__wrap {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.question__form {
+    position: absolute;
+    z-index: 9;
+    padding: 20px 24px;
+    top: 100px;
+    left: 330px;
+    width: 660px;
+    margin: 0 auto;
+    height: 505px;
+    background: #fff;
+}
+.question__form__close {
+    position:absolute;
+    font-size:20px;
+    right:40px;
+    top:15px;
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 1s;
+}
+.question__form__close:hover {
+    opacity: 1;
+}
+.question__form__line {
+    width: 100%;
+    height: 2px;
+    background: #2aabd2;
+    margin-bottom: 50px;
+}
+.question__form .btn {
+    background: #fff;
+    box-shadow: 0 0 5px #2aabd2;
+    margin: 50px 0 0 300px;
+    color: #37363e;
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 15px;
+    transition: all 1s;
+}
+.question__form .btn:hover {
+    background: #2aabd2;
+    color: #fff;
+}
+.question {
+    width: 1000px;
+    margin: 0 auto;
+}
+.question__left {
+    float: left;
+    width: 612px;
+    padding: 20px 24px;
+}
+.question__left__item,
+.question__right__hot__item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #37363e;
+}
+.question__left__title,
+.question__right__hot__title{
+    color: #37363e;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.question__left__title a,
+.question__right__hot__title a{
+    color: #37363e;
+}
+.question__left__title a:hover,
+.question__right__hot__title a:hover {
+    text-decoration: none;
+}
+.question__left__user {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.question__left__user__img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.question__left__content,
+.question__right__hot__content {
+    margin-bottom: 10px;
+
+}
+.question__left__bottom {
+    margin-top: 5px;
+    color: #aaa;
+}
+.question__left__bottom span {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.question__rigth {
+    overflow: hidden;
+    width: 300px;
+    padding: 20px 24px;
+}
+.question__rigth .btn {
+    background: #fff;
+    box-shadow: 0 0 5px #2aabd2;
+    color: #37363e;
+    width: 150px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 15px;
+    transition: all 1s;
+}
+.question__rigth .btn:hover {
+    background: #2aabd2;
+    color: #fff;
+}
+.question__right__hot__tip {
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+    color: red;
+}
+.question__right__hot__line {
+    width: 100%;
+    height: 2px;
+    background: #2aabd2;
+}
+.question__show {
+    width: 1000px;
+    margin: 0 auto;
+}
+.question__show__left {
+    float: left;
+    background: #fff;
+    width: 612px;
+    padding: 20px 24px;
+}
+.question__show__title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+}
+.question__show__item span {
+    margin-left: 300px;
+    color: #2aabd2;
+}
+.question__show__item form p {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: red;
+}
+.question__show .btn {
+    background: #fff;
+    box-shadow: 0 0 5px #2aabd2;
+    color: #37363e;
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 15px;
+    transition: all 1s;
+    margin: -150px 0 0 380px;
+}
+.question__show .btn:hover {
+    background: #2aabd2;
+    color: #fff;
+}
+.question__show__left__answer {
+    font-size: 16px;
+    color: red;
+    margin: 10px 0;
+}
+.question__show__left__line {
+    width: 100%;
+    height: 2px;
+    background: #2aabd2;
+}
+.question__show__left__answer__item {
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+.question__show__left__answer__content {
+    clear: both;
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+}
+.question__show__left__answer__tips span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.question__show__left__discuss {
+    padding: 25px;
+    margin: 30px 0;
+}
+.question__show__left__discuss__user {
+    margin: 20px 0;
+}
+.question__show__left__discuss__user p {
+    overflow: hidden;
+}
+
+.question__show__right {
+    overflow: hidden;
+    width: 300px;
+    padding: 20px 24px;
+}
+.question__show__right p {
+    font-size: 16px;
+    color: red;
+}
+.question__show__right__item {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 5px 24px;
+}
+.question__show__right__item a {
+    font-size: 16px;
+    color: #37363e;
+}
+.question__show__right__item a:hover {
+    text-decoration: none;
+}
+.question__show__right__tilte {
+    font-size: 16px;
+}
+.question__show__right__line {
+    width: 100%;
+    height: 2px;
+    background: #2aabd2;
+}

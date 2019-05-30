@@ -1,0 +1,190 @@
+.body {
+	background: #f5f5f5;
+}
+.header {
+	height: 60px;
+	width: 100%;
+	background: #2aabd2;
+}
+.header__wrap {
+	width: 1100px;
+	margin: 0 auto;
+}
+.header__logo {
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	height: 60px;
+	line-height: 60px;
+	color: #c7254e;
+}
+.header__nav-item {
+	float: right;
+	font-size: 25px;
+	line-height: 60px;
+	height: 60px;
+	text-decoration: none;
+	color: #c7254e;
+	margin-left: 40px;
+}
+.header__nav-item:hover {
+	transition: all 1s;
+	color: #fff;
+	text-decoration: none;
+}
+.wrap__side {
+	position: absolute;
+	width: 250px;
+	border-radius: 5px;
+	background: #3d464d;
+	padding: 20px;
+	text-align: center;
+}
+.wrap__manage {
+	background: rgba(0, 0, 0, 0.1);
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.wrap__manage__people-title,
+.wrap__manage__admin-title,
+.wrap__manage__news-title,
+.wrap__manage__question-title,
+.wrap__manage__profession-title,
+.wrap__manage__city-title,
+.wrap__manage__school-title,
+.wrap__manage__program-title, 
+.wrap__manage__order-title {
+	margin: 5px;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.6);
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+.wrap__manage__people-title span,
+.wrap__manage__admin-title span,
+.wrap__manage__news-title span,
+.wrap__manage__question-title span,
+.wrap__manage__profession-title span,
+.wrap__manage__city-title span,
+.wrap__manage__school-title span,
+.wrap__manage__program-title span, 
+.wrap__manage__order-title span {
+	color: #c7254e;
+}
+.wrap__manage__question-title a {
+	color: rgba(255, 255, 255, 0.6);
+}
+.wrap__manage__question-title a:hover {
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+}
+.wrap__manage__people-manage,
+.wrap__manage__admin-manage,
+.wrap__manage__news-manage,
+.wrap__manage__profession-manage,
+.wrap__manage__city-manage,
+.wrap__manage__school-manage,
+.wrap__manage__program-manage, 
+.wrap__manage__order-manage {
+	list-style: none;
+	padding: 5px;
+	letter-spacing: 2px;
+	font-size: 15px;
+	color: #fff;
+}
+.wrap__manage__people-manage li,
+.wrap__manage__admin-manage li,
+.wrap__manage__news-manage li,
+.wrap__manage__profession-manage li,
+.wrap__manage__city-manage li,
+.wrap__manage__school-manage li,
+.wrap__manage__program-manage li, 
+.wrap__manage__order-manage li {
+	padding: 2px;
+}
+.wrap__manage__people-manage li:hover,
+.wrap__manage__admin-manage li:hover,
+.wrap__manage__news-manage li:hover,
+.wrap__manage__profession-manage li:hover,
+.wrap__manage__city-manage li:hover ,
+.wrap__manage__school-manage li:hover,
+.wrap__manage__program-manage li:hover,
+.wrap__manage__order-manage li:hover {
+	transition: all 1s;
+	background: #c7254e;
+}
+.wrap__manage__people-manage a,
+.wrap__manage__admin-manage a,
+.wrap__manage__news-manage a,
+.wrap__manage__profession-manage a,
+.wrap__manage__city-manage a,
+.wrap__manage__school-manage a,
+.wrap__manage__program-manage a, 
+.wrap__manage__order-manage a {
+	color: rgba(255, 255, 255, 0.6);
+}
+.wrap__manage__people-manage a:hover,
+.wrap__manage__admin-manage a:hover,
+.wrap__manage__news-manage a:hover,
+.wrap__manage__profession-manage a:hover,
+.wrap__manage__city-manage a:hover,
+.wrap__manage__school-manage a:hover,
+.wrap__manage__program-manage a:hover,
+.wrap__manage__order-manage a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.wrap__main {
+	margin-left: 250px;
+	padding: 20px;
+	background: #f5f5f5;
+	border-radius: 5px;
+}
+.wrap__header {
+	margin-bottom: 20px;
+}
+.warp__header__item {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wrap__header__item-i {
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 100px;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px;
+	margin: 0 20px 0 0;
+	display: inline-block;
+	background: #3d464d;
+}
+.wrap__header__item-i a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
+}
+.wrap__header__item-i:hover {
+	background: #c7254e;
+	transition: 1s;
+}
+.wrap__header__item-i a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.wrap__content {
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 15px;
+	padding: 10px 10px 10px 10px;
+	color: #37363e;
+	background: #fff;
+
+}
+.system li{
+	line-height: 40px;
+	font-size: 15px;
+	color: #37363e;
+}
+

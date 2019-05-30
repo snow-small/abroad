@@ -1,0 +1,58 @@
+.profession {
+    width: 800px;
+    height: 402px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+.profession__notice__title{
+    line-height: 50px;
+    height: 50px;
+}
+.profession__notice__item {
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+}
+.profession .btn-primary {
+    width: 190px;
+    margin-top: 50px;
+    background: #fff;
+    color: #37353e;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #2aabd2;
+    transition: all 1s;
+    margin-left: 0;
+}
+.profession .btn-primary:hover {
+    background: #2aabd2;
+}
+.profession__text {
+    width: 800px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+.profession__text__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.radio-inline {
+    font-size: 15px;
+    margin-right: 100px;
+}
+.profession__text .btn {
+    margin-left: 40px;
+    margin-top: 50px;
+    background: #fff;
+    color: #37353e;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #2aabd2;
+    transition: all 1s;
+}
+.profession__text .btn:hover {
+    background: #2aabd2;
+}

@@ -1,0 +1,29 @@
+.login {
+    background: #333;
+}
+.login form {
+    background: #6d6d6d;
+    margin: 0 auto;
+    width: 38%;
+    padding: 50px;
+}
+.login .login__wrap {
+    margin-top: 5%;
+    color: #fff;
+}
+.login .login__logo {
+    font-size: 100px;
+    color: #c7254e;
+}
+.login .login__title {
+    margin:0 0 20px 0;
+    color: #c7254e;
+}
+.login .login__sub {
+    background: #c7254e;
+    letter-spacing: 10px;
+    width: 50%;
+}
+.page-error {
+    color: yellow;
+}
